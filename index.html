@@ -1,668 +1,171 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Caleb Tote</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="description" content="Caleb Tote | Resume | CV" />
-  <meta name="keywords" content="Caleb Tote, ctote, Technical Director, DevOps, Cloud Infrastructure, CV, Resume">
-  <meta name="author" content="Caleb Tote" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="index, follow">
-  <link rel="shortcut icon" href="img/me.png">
-
-  <link rel="preload" href="css/main.css" as="style">
-  <link rel="preload" href="img/me.png" as="image">
-
-  <link rel="stylesheet" href="css/reset.css" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-  <link rel="stylesheet" href="css/animations.css" type="text/css">
-  <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPS9WXPQTD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-YPS9WXPQTD', {
-      debug_mode: true
-    });
-
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caleb Tote | Cloud platforms & applied AI</title>
+<meta name="description" content="Caleb Tote leads cloud infrastructure and helps build AI tools for engineers. His infrastructure experience includes supporting more than one million concurrent users worldwide.">
+<link rel="canonical" href="https://ctote.dev/">
+<meta property="og:title" content="Caleb Tote | Infrastructure engineering">
+<meta property="og:description" content="Cloud infrastructure and applied AI work by Caleb Tote.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ctote.dev/">
+<meta name="theme-color" content="#f5f3ec">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YPS9WXPQTD"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-YPS9WXPQTD');</script>
 </head>
-
 <body>
-  <!-- Animated Background -->
-  <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-  <!-- /Animated Background -->
-
-  <!-- Loading animation -->
-  <div class="preloader">
-    <div class="preloader-animation">
-      <div class="preloader-spinner">
-      </div>
-    </div>
-  </div>
-  <!-- /Loading animation -->
-
-  <div class="page">
-    <div class="page-content">
-
-      <header id="site_header" class="header mobile-menu-hide">
-        <div class="header-content">
-          <div class="header-photo">
-            <img src="img/me.png" alt="Caleb Tote" loading="lazy">
-          </div>
-          <div class="header-titles">
-            <h2>Caleb Tote</h2>
-            <h4>Technical Director</h4>
-          </div>
-        </div>
-
-        <ul class="main-menu">
-          <!-- Primary Navigation -->
-          <li class="active">
-            <a href="#home" class="nav-anim" onclick="gtag('event', 'page_view', { 'page_title': 'Home', 'page_path': '#home'});">
-              <span class="menu-icon lnr lnr-home"></span>
-              <span class="link-text">Home</span>
-            </a>
-          </li>
-          <li>
-            <a href="#about-me" class="nav-anim" onclick="gtag('event', 'page_view', { 'page_title': 'About-Me', 'page_path': '#about'});">
-              <span class="menu-icon lnr lnr-user"></span>
-              <span class="link-text">About Me</span>
-            </a>
-          </li>
-          <li>
-            <a href="#resume" class="nav-anim" onclick="gtag('event', 'page_view', { 'page_title': 'Resume', 'page_path': '#resume'});">
-              <span class="menu-icon lnr lnr-graduation-hat"></span>
-              <span class="link-text">Resume</span>
-            </a>
-          </li>
-
-          <!-- Divider -->
-          <li class="menu-divider"></li>
-
-          <!-- Action Links -->
-          <li>
-            <a href="#" class="email-link" onclick="copyEmailToClipboard(event)">
-              <span class="menu-icon fas fa-envelope"></span>
-              <span class="link-text">Email</span>
-            </a>
-          </li>
-        </ul>
-
-        <!--
-            <div class="social-links">
-              <ul>
-                <li><a href="https://www.linkedin.com/in/calebtote" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-              </ul>
-            </div>
-        -->
-        <div class="header-buttons">
-          <a href="https://www.dropbox.com/scl/fi/vy2jtm68h5dtvlnje89wo/CalebTote_Resume.pdf?rlkey=n7y07rj5jyah4be6vli3zl4af&st=78ofbq0v&dl=1"
-             class="btn btn-primary"
-             onclick="gtag('event', 'click-Download-CV', { 'event_category': 'Button', 'event_label': 'Download-CV' });">
-            Download CV
-          </a>
-        </div>
-        <h4>
-          <a href="https://linkedin.com/in/calebtote"
-             target="_blank"
-             rel="noopener noreferrer"
-             onclick="gtag('event', 'click-LinkedIn-main', { 'event_category': 'Button', 'event_label': 'LinkedIn-main' });">
-            LinkedIn
-          </a>
-        </h4>
-
-
-        <div class="copyrights">© 2025 All rights reserved.</div>
-      </header>
-
-      <!-- Mobile Navigation -->
-      <div class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <!-- End Mobile Navigation -->
-
-      <!-- Arrows Nav -->
-      <div class="lmpixels-arrows-nav">
-        <div class="lmpixels-arrow-right" id="arrow-right"><i class="lnr lnr-chevron-right"></i></div>
-        <div class="lmpixels-arrow-left" id="arrow-left"><i class="lnr lnr-chevron-left"></i></div>
-      </div>
-      <!-- End Arrows Nav -->
-
-      <div class="content-area">
-        <div class="animated-sections">
-          <!-- Home Subpage -->
-          <section data-id="home" class="animated-section start-page">
-            <div class="section-content vcentered">
-
-              <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                  <div class="title-block">
-                    <h2 class="mobile-only">Caleb Tote</h2>
-                    <div class="owl-carousel text-rotation">
-                      <div class="item">
-                        <div class="sp-subtitle">I build reliable, observable cloud platforms</div>
-                      </div>
-
-                      <div class="item">
-                        <div class="sp-subtitle">Observability Obsessed</div>
-                      </div>
-
-                      <div class="item">
-                        <div class="sp-subtitle">SRE Enthusiast</div>
-                      </div>
-
-                      <div class="item">
-                        <div class="sp-subtitle"><strong>Proficiencies:</strong><br> AWS, Terraform, GitLab CI/CD, Datadog</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </section>
-          <!-- End of Home Subpage -->
-
-          <!-- About Me Subpage -->
-          <section data-id="about-me" class="animated-section">
-            <div class="section-content">
-              <div class="page-title">
-                <h2>About <span>Me</span></h2>
-              </div>
-
-              <!-- Personal Information -->
-              <div class="row">
-                <div class="col-xs-12 col-sm-7">
-                  <p><strong>DevOps leader focused on building calm, reliable engineering teams.</strong><br><br>
-
-                    A software engineer since 2010, I've spent the past decade on DevOps, specializing in cloud infrastructure,
-                    observability, container orchestration, and reliable production deployments.<br><br>
-
-                    Over the past six years, I've grown into technical leadership, empowering engineering teams and creating environments
-                    where engineers can excel and confidently leave work <strong>at</strong> work.</p>
-                </div>
-
-                <div class="col-xs-12 col-sm-5">
-                  <div class="info-list">
-                    <ul>
-                      <li>
-                        <span class="title">Preferred Location:</span>
-                        <span class="value">Remote</span>
-                      </li>
-
-                      <li>
-                        <span class="title">Residence</span>
-                        <span class="value">Texas, USA</span>
-                      </li>
-
-                       <li>
-                        <span class="title">e-mail</span>
-                        <span class="value">caleb.tote@gmail.com</span>
-                      </li>
-
-                      <li>
-                        <span class="title">Games Shipped</span>
-                        <span class="value"><a href="https://www.mobygames.com/person/690807/caleb-tote/credits/" target="_blank">Moby Games</a></span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Personal Information -->
-
-              <div class="white-space-50"></div>
-
-              <!-- Services -->
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <div class="block-title">
-                    <h3>My <span>Philosophies</span></h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <div class="col-inner">
-                    <div class="info-list-w-icon">
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-users"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Technical Leadership</h4>
-                          <p><b><em>Make on-call not suck.</em></b><br>
-                            The quickest way to make someone hate their job is repeatedly interrupting their personal time.
-                            If we want teams that perform with excitement, we must make it our mission as leaders to ensure
-                            on-call rotations aren't a constant source of dread.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-chart-bars"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Observability</h4>
-                          <p><b><em>Measure everything; assume nothing.</em></b><br>
-                            Instrument your system to <b>tell a story</b> of the user experience.
-                            Know where errors happen, but chiefly how they impact customers.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6">
-                  <div class="col-inner">
-                    <div class="info-list-w-icon">
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-rocket"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>CI/CD</h4>
-                          <p><b><em>Friday deploys shouldn't be scary.</em></b><br>
-                            The fear of Friday deploys is a leading indicator of unaddressed tech debt.
-                            Teams generally fear Friday deploys because their pipelines are slow or there are gaps in observability; often, it's both.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-coffee-cup"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Embrace Boredom</h4>
-                          <p><b><em>Keep toolsets simple.</em></b><br>
-                            Prefer managed solutions that reduce complexity, even if it means giving up customization.
-                            Resist the flashy F1 racer when a reliable Civic is all you truly need.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Services -->
-
-              <div class="white-space-30"></div>
-            </div>
-          </section>
-          <!-- End of About Me Subpage -->
-
-          <!-- Resume Subpage -->
-          <section data-id="resume" class="animated-section">
-            <div class="section-content">
-              <div class="page-title">
-                <h2>Resume</h2>
-              </div>
-
-              <div class="row">
-                <div class="col-xs-12 col-sm-7">
-
-                  <div class="block-title">
-                    <h3>Experience</h3>
-                  </div>
-
-                  <div class="timeline timeline-second-style clearfix">
-                    <div class="timeline-item clearfix">
-                      <div class="left-part">
-                        <h5 class="item-period">2019 - Current</h5>
-                        <span class="item-company">Gearbox Software</span>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="right-part">
-                        <h4 class="item-title">Senior Technical Director of Infrastructure</h4>
-                        <p>Manages a multi-national, cross-functional team of cloud/DevOps engineers supporting mission-critical services across a global cloud platform.
-                          Directs, oversees, and contributes to the design of Gearbox's cloud infrastructure. An active contributor to code reviews and production deployments.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="timeline-item clearfix">
-                      <div class="left-part">
-                        <h5 class="item-period">2014 - 2019</h5>
-                        <span class="item-company">Electronic Arts</span>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="right-part">
-                        <h4 class="item-title">DevOps Engineer</h4>
-                        <p>Infrastructure planning, monitoring, and alerting of online services to detect potential outages and reacting
-                          quickly to mitigate (or minimize) any downtime.</p>
-                      </div>
-                    </div>
-
-                    <div class="timeline-item clearfix">
-                      <div class="left-part">
-                        <h5 class="item-period">2010 - 2014</h5>
-                        <span class="item-company">CGI Federal</span>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="right-part">
-                        <h4 class="item-title">Development Team Lead</h4>
-                        <p>Lead Software Engineer on C++ based Federal ERP solution.</p>
-                      </div>
-                    </div>
-
-                    <div class="timeline-item clearfix">
-                      <div class="left-part">
-                        <h5 class="item-period">2005 - 2010</h5>
-                        <span class="item-company">Thrasher Engineering</span>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="right-part">
-                        <h4 class="item-title">Network Administrator</h4>
-                        <p>Primary network administrator for five offices across two states.</p>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div class="white-space-50"></div>
-
-                  <div class="block-title">
-                    <h3>Education</h3>
-                  </div>
-
-                  <div class="timeline timeline-second-style clearfix">
-                    <div class="timeline-item clearfix">
-                      <div class="left-part">
-                        <h5 class="item-period">2015</h5>
-                        <span class="item-company">University of Illinois Urbana-Champaign</span>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="right-part">
-                        <h4 class="item-title">Master's, Computer Science</h4>
-                        <p><em>focus: software engineering</em></p>
-                      </div>
-                    </div>
-
-                    <div class="timeline-item clearfix">
-                      <div class="left-part">
-                        <h5 class="item-period">2010</h5>
-                        <span class="item-company">Bluefield State University</span>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="right-part">
-                        <h4 class="item-title">Bachelor's, Computer Science</h4>
-                        <p><em>minor: mathematics</em></p>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-
-                <!-- Skills & Certificates -->
-                <div class="col-xs-12 col-sm-5">
-                  <!-- Design Skills -->
-                  <div class="block-title">
-                    <h3>Leadership <span>Skills</span></h3>
-                  </div>
-
-                  <div class="skills-info skills-second-style">
-                    <!-- Skill 1 -->
-                    <div class="skill clearfix">
-                      <h4>Agile Project Planning</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-1">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 1 -->
-
-                    <!-- Skill 2 -->
-                    <div class="skill clearfix">
-                      <h4>Incident Management</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-2">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 2 -->
-
-                    <!-- Skill 3 -->
-                    <div class="skill clearfix">
-                      <h4>Mentorship / Training</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-3">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 3 -->
-
-                    <!-- Skill 4 -->
-                    <div class="skill clearfix">
-                      <h4>Capacity Planning</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-4">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 4 -->
-
-                    <!-- Skill 5 -->
-                    <div class="skill clearfix">
-                      <h4>Cloud Cost Management</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-5">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 5 -->
-
-                    <!-- Skill 6 -->
-                    <div class="skill clearfix">
-                      <h4>Stakeholder Communication</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-6">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 6 -->
-
-
-                  </div>
-                  <!-- End of Design Skills -->
-
-                  <div class="white-space-10"></div>
-
-                  <!-- Coding Skills -->
-                  <div class="block-title">
-                    <h3>Engineering <span>Skills</span></h3>
-                  </div>
-
-                  <div class="skills-info skills-second-style">
-                    <!-- Skill 7 -->
-                    <div class="skill clearfix">
-                      <h4>Container Orchestration</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-7">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 7 -->
-
-                    <!-- Skill 12 -->
-                    <div class="skill clearfix">
-                      <h4>Datadog</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-12">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 12 -->
-
-                    <!-- Skill 8 -->
-                    <div class="skill clearfix">
-                      <h4>Terraform / Terragrunt</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-8">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 8 -->
-
-                    <!-- Skill 9 -->
-                    <!--<div class="skill clearfix">
-                      <h4>Terragrunt</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-9">
-                      <div class="skill-percentage"></div>
-                    </div>-->
-                    <!-- End of Skill 9 -->
-
-                    <!-- Skill 10 -->
-                    <div class="skill clearfix">
-                      <h4>GitLab CI/CD</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-10">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 10 -->
-
-                    <!-- Skill 11 -->
-                    <div class="skill clearfix">
-                      <h4>Docker</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-11">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 11 -->
-
-                    <!-- Skill 13 -->
-                    <div class="skill clearfix">
-                      <h4>Python</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-13">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 13 -->
-
-                    <!-- Skill 14 -->
-                    <div class="skill clearfix">
-                      <h4>Go</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-14">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 14 -->
-
-                    <!-- Skill 15 -->
-                    <div class="skill clearfix">
-                      <h4>Bash</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-15">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 15 -->
-
-                    <!-- Skill 16 -->
-                    <div class="skill clearfix">
-                      <h4>Linux</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-16">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 16 -->
-
-                    <!-- Skill 17 -->
-                    <div class="skill clearfix">
-                      <h4>Mac</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-17">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 17 -->
-
-                    <!-- Skill 18 -->
-                    <div class="skill clearfix">
-                      <h4>Windows</h4>
-                      <div class="skill-value"></div>
-                    </div>
-                    <div class="skill-container skill-18">
-                      <div class="skill-percentage"></div>
-                    </div>
-                    <!-- End of Skill 18 -->
-                  </div>
-                  <!-- End of Coding Skills -->
-
-                  <div class="white-space-10"></div>
-
-                  <!-- Knowledges -->
-                  <div class="block-title">
-                    <h3>AWS Proficiencies</h3>
-                  </div>
-
-                  <ul class="knowledges">
-                    <li>Fargate</li>
-                    <li>ECS</li>
-                    <li>Aurora</li>
-                    <li>KMS</li>
-                    <li>Secrets Manager</li>
-                    <li>EC2</li>
-                    <li>CloudWatch</li>
-                    <li>Route53</li>
-                    <li>AppConfig</li>
-                    <li>Control Tower</li>
-                    <li>Transit Gateway</li>
-                    <li>Lambda</li>
-                    <li>IAM</li>
-                    <li>Cost Management</li>
-                  </ul>
-                  <!-- End of Knowledges -->
-                </div>
-                <!-- End of Skills & Certificates -->
-              </div>
-
-              <div class="white-space-50"></div>
-            </div>
-          </section>
-          <!-- End of Resume Subpage -->
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- External Scripts -->
-  <script src="js/jquery.min.js" defer></script>
-  <script src="js/modernizr.custom.js" defer></script>
-  <script src="js/animating.js" defer></script>
-  <script src="js/imagesloaded.pkgd.min.js" defer></script>
-  <script src="https://www.google.com/recaptcha/api.js" defer></script>
-  <script src="js/perfect-scrollbar.min.js" defer></script>
-  <script src="js/jquery.shuffle.min.js" defer></script>
-  <script src="js/masonry.pkgd.min.js" defer></script>
-  <script src="js/owl.carousel.min.js" defer></script>
-  <script src="js/jquery.magnific-popup.min.js" defer></script>
-  <script src="js/validator.js" defer></script>
-  <script src="js/main.js" defer></script>
-
-  <!-- Custom Script -->
-  <script src="scripts/main.js" defer></script>
-</body>
-
-</html>
+<a class="skip" href="#main">Skip to content</a>
+<div class="header-shell">
+<header class="header wrap"><a class="identity" href="#home" aria-label="Caleb Tote, home"><span class="monogram">ct.</span><span class="identity-name">Caleb Tote</span></a>
+<nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about-me">About</a><a href="https://www.dropbox.com/scl/fi/vy2jtm68h5dtvlnje89wo/CalebTote_Resume.pdf?rlkey=n7y07rj5jyah4be6vli3zl4af&amp;st=78ofbq0v&amp;dl=1">Résumé <span aria-hidden="true">↗</span></a><a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></nav></header>
+</div>
+<main id="main">
+<section class="hero wrap" id="home">
+<div class="hero-layout">
+<div class="hero-copy">
+<div class="eyebrow"><span class="dot"></span> Infrastructure engineering & applied AI</div>
+<h1>I build cloud platforms<br><em>for engineers.</em></h1>
+<p class="hero-intro">I’m Caleb. I lead cloud infrastructure at Gearbox and help build AI tools for our engineers.</p>
+<p class="hero-description">My work supports more than a million concurrent users worldwide. I’m interested in making complex systems easier to build and operate.</p>
+<div class="hero-actions"><a class="button" href="#work">See what I’ve built <span aria-hidden="true">↓</span></a><a class="text-link" href="mailto:caleb.tote@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+</div>
+<div class="career-note"><span>Currently at <b>Gearbox</b></span><span>Previously <b>Electronic Arts</b></span>
+</div>
+</div>
+<aside class="scale-panel" aria-label="Experience supporting global online services">
+<div class="panel-top"><span>EXPERIENCE AT SCALE</span>
+</div>
+<div class="scale-stat">1M<span>+</span>
+</div>
+<p>concurrent users<br>connected worldwide</p>
+<svg class="network" viewBox="0 0 420 160" fill="none" aria-hidden="true"><defs><radialGradient id="glow"><stop stop-color="#d6ecb5" stop-opacity=".18"/><stop offset="1" stop-color="#d6ecb5" stop-opacity="0"/></radialGradient></defs><ellipse cx="210" cy="95" rx="190" ry="130" fill="url(#glow)"/><g stroke="#779783" stroke-width="1"><path d="M30 106Q210-55 390 106M30 106Q210 185 390 106M75 57Q210 135 345 57M115 28Q210 160 305 28M210 12V150M30 106H390M75 57H345M115 28H305M115 28Q-10 106 115 150M305 28Q430 106 305 150M160 16Q75 106 160 157M260 16Q345 106 260 157"/></g><g fill="#e1edc9" stroke="#243d33" stroke-width="5"><circle cx="75" cy="57" r="6"/><circle cx="210" cy="106" r="7"/><circle cx="305" cy="28" r="6"/><circle cx="345" cy="106" r="6"/><circle cx="144" cy="106" r="5"/></g></svg>
+<div class="panel-bottom"><span>Cloud infrastructure at Gearbox</span>
+</div></aside>
+</div>
+<div class="facts"><a href="#platform"><strong>Hours → minutes</strong><span>Deployment time after the platform migration <i aria-hidden="true">↗</i></span></a><a href="#assistant"><strong>Engineering with AI</strong><span>An AI assistant for engineering work <i aria-hidden="true">↗</i></span></a><a href="#factory"><strong>AI-assisted delivery</strong><span>Research into software development automation <i aria-hidden="true">↗</i></span></a>
+</div>
+</section>
+<section class="work wrap section" id="work">
+<div class="section-heading">
+<div>
+<p class="eyebrow">01 / Selected work</p>
+<h2>Selected work.</h2>
+</div>
+<p>My role is noted on each project, from personal implementation to technical direction.</p>
+</div>
+<article class="project" id="platform">
+<div class="project-index">01 <span>/ Platform engineering</span>
+</div>
+<div class="project-copy">
+<p class="eyebrow">Designed & directed</p>
+<h3>Deployments that take minutes.</h3>
+<p>I designed a new cloud ecosystem at Gearbox and directed the migration. The work brought delivery and observability into a shared set of tools.</p>
+<p>Deployment time dropped from hours to minutes. Most individual transitions now take about 60 seconds from the deployment trigger. That covers merge request to dev, dev to stable, or stable to production.</p>
+<details>
+<summary>Inside the transformation <span aria-hidden="true">+</span></summary>
+<div class="detail-content"><ul><li>Perforce and Bamboo → GitLab and GitLab CI/CD.</li><li>CloudFormation → Terraform.</li><li>Consul → AWS Secrets Manager.</li><li>Fragmented logging and metrics → unified, cost-tracked observability in Datadog across the stack.</li></ul>
+<p>Our original two-person DevOps team grew into a cloud infrastructure team. New hires already knew the tools we had adopted, which made onboarding easier.</p>
+</div>
+</details>
+</div>
+<div class="deployment-diagram illustration">
+<div class="diagram-label">DEPLOYMENT, REWORKED</div>
+<div class="time-comparison"><span>Hours</span><span aria-hidden="true">↘</span><strong>Minutes.</strong>
+</div>
+<div class="pipeline"><span>MR</span><i>→</i><span>Dev</span><i>→</i><span>Stable</span><i>→</i><span>Prod</span>
+</div>
+<p>~60 seconds per transition in most cases.<br>Measured from the deployment trigger.</p>
+</div>
+</article>
+<article class="project" id="assistant">
+<div class="project-index">02 <span>/ Applied AI</span>
+</div>
+<div class="project-copy">
+<p class="eyebrow">Contributed to design & implementation</p>
+<h3>An AI assistant for our department.</h3>
+<p>I helped design and build an AI assistant that engineers interact with through a variety of interfaces. We use it to prepare release notes, review security vulnerabilities, triage incidents, and manage on-call rotations.</p>
+<div class="project-note">My contribution included design and implementation alongside other engineers.</div>
+</div>
+<div class="assistant-diagram illustration" aria-label="Engineering assistant capabilities">
+<div class="diagram-label">ENGINEERING ASSISTANT</div>
+<div class="diagram-core"><span aria-hidden="true">✳</span> Engineering support</div>
+<div class="diagram-rows"><span>01 <b>Release notes</b></span><span>02 <b>Security vulnerabilities</b></span><span>03 <b>Incident triage</b></span><span>04 <b>On-call rotations</b></span>
+</div>
+<div class="diagram-caption">Available through a variety of interfaces</div>
+</div>
+</article>
+<article class="project" id="factory">
+<div class="project-index">03 <span>/ Applied research</span></div>
+<div class="project-copy">
+<p class="eyebrow">Leading development</p>
+<h3>AI-assisted software delivery.</h3>
+<p>I'm leading work on using AI to automate parts of software development and delivery.</p>
+<p>The work spans implementation and validation, with a focus on whether the resulting software works as intended.</p>
+<div class="project-note"><a class="text-link" href="mailto:caleb.tote@gmail.com?subject=Let%E2%80%99s%20talk%20about%20AI-assisted%20delivery">Happy to talk through the work on a call. <span aria-hidden="true">↗</span></a></div>
+</div>
+<div class="factory-diagram illustration" aria-label="Research focus: AI-assisted software delivery">
+<div class="diagram-label">RESEARCH FOCUS</div>
+<div class="diagram-core"><span aria-hidden="true">↗</span> AI-assisted delivery</div>
+<div class="diagram-rows"><span>01 <b>Planning</b></span><span>02 <b>Implementation</b></span><span>03 <b>Code review</b></span><span>04 <b>Testing & validation</b></span><span>05 <b>Deployment</b></span></div>
+
+</div>
+</article>
+</section>
+<section class="principles" aria-label="My approach to on-call">
+<div class="wrap principles-inner">
+<p class="eyebrow">02 / Operating principle</p><blockquote>“Make on-call<br><em>not suck.</em>”</blockquote>
+<div>
+<p>When on-call becomes unsustainable, leadership takes on-call shifts until it improves.</p>
+<p>I wrote and rolled out our launch rotation and incident-management framework. We run mock launches so engineers can practice investigating unfamiliar systems under pressure.</p>
+</div>
+</div>
+</section>
+<section class="about wrap section" id="about-me">
+<div>
+<p class="eyebrow">03 / A little background</p>
+<h2>About me.</h2>
+<p class="about-intro">I'm based in Texas and have worked in software engineering since 2010. Before that, I was a network administrator.</p>
+<p>At Gearbox, I lead cloud infrastructure engineering. My responsibilities include technical direction and cloud cost management. I also help guide how we run AI workloads across the organization.</p>
+<p>I enjoy hands-on engineering, especially prototyping new systems and developing them based on what we learn.</p>
+<div class="tags"><span>Cloud platforms</span><span>Developer infrastructure</span><span>Applied AI</span>
+</div>
+</div>
+<div class="career" id="resume">
+<h3>Experience</h3>
+<div><span>2019–present</span>
+<h4>Gearbox Software</h4>
+<p>Senior Technical Director of Infrastructure</p>
+</div>
+<div><span>2014–2019</span>
+<h4>Electronic Arts</h4>
+<p>DevOps Engineer</p>
+</div>
+<div><span>2010–2014</span>
+<h4>CGI Federal</h4>
+<p>Development Team Lead</p>
+</div>
+<div><span>2005–2010</span>
+<h4>Thrasher Engineering</h4>
+<p>Network Administrator</p>
+</div>
+<p class="education">MS, Computer Science · University of Illinois Urbana-Champaign<br>BS, Computer Science · Bluefield State University</p>
+</div>
+</section>
+<section class="contact wrap" id="contact">
+<p class="eyebrow">04 / Let's talk</p>
+<h2>Have something<br> <em>in mind?</em></h2>
+<div class="contact-bottom">
+<p>I’m always open to conversations about developer infrastructure and applied AI, including opportunities to work on those problems.</p>
+<div class="contact-actions"><a class="button" href="mailto:caleb.tote@gmail.com">Email Caleb <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.linkedin.com/in/calebtote">Connect on LinkedIn ↗</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="wrap"><span>© <span id="year">2026</span> Caleb Tote</span>
+<div><a href="mailto:caleb.tote@gmail.com">Email ↗</a><a href="https://www.linkedin.com/in/calebtote">LinkedIn ↗</a><a href="#home">Back to top ↑</a>
+</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
