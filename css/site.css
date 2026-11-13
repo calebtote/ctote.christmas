@@ -95,10 +95,10 @@ nav a:active { border-style: inset; }
 .hero-description { font-size: 15px; color: #333; }
 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--red); margin-right: 6px; box-shadow: 0 0 6px var(--red); animation: blink 1s steps(1) infinite; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; margin-top: 16px; }
-.button, .jingle { display: inline-flex; align-items: center; gap: 14px; min-height: 46px; padding: 10px 18px; font: bold 16px/1 var(--comic); color: #fff; text-decoration: none; text-shadow: 1px 1px 0 #000; background: var(--red); border: 4px solid transparent; border-image: repeating-linear-gradient(-45deg, var(--red) 0 8px, #fff 8px 16px) 6; box-shadow: 0 0 0 2px var(--gold); cursor: pointer; }
+.button { display: inline-flex; align-items: center; gap: 14px; min-height: 46px; padding: 10px 18px; font: bold 16px/1 var(--comic); color: #fff; text-decoration: none; text-shadow: 1px 1px 0 #000; background: var(--red); border: 4px solid transparent; border-image: repeating-linear-gradient(-45deg, var(--red) 0 8px, #fff 8px 16px) 6; box-shadow: 0 0 0 2px var(--gold); cursor: pointer; }
 .button:visited { color: #fff; }
-.button:hover, .jingle:hover { background: var(--green); color: #fff; }
-.button:active, .jingle:active { transform: translateY(2px); }
+.button:hover { background: var(--green); color: #fff; }
+.button:active { transform: translateY(2px); }
 .text-link { font-weight: bold; }
 .career-note { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 14px; font-size: 13px; }
 .scale-panel { padding: 16px; text-align: center; color: var(--gold); background: radial-gradient(circle at 50% 20%, #12306b, #050d20); border: 5px ridge var(--gold); }
@@ -187,7 +187,6 @@ details[open] summary span { display: inline-block; transform: rotate(45deg); }
 .extras { text-align: center; background: #000; color: #0f0; font-family: var(--mono); border-color: #808080; }
 .counter-box { font-size: 14px; }
 .counter { display: inline-block; margin: 6px 0 12px; padding: 4px 6px; font: bold 28px/1 var(--mono); letter-spacing: 6px; color: #ff3030; background: #111; border: 3px inset #666; text-shadow: 0 0 6px #ff0000; }
-.jingle { margin: 0 auto 12px; }
 .guestbook { display: block; margin-bottom: 12px; font: bold 18px/1.4 var(--comic); color: var(--gold) !important; }
 .guestbook:hover { background: none; color: #fff !important; }
 .webring { padding: 8px; margin-bottom: 12px; font-size: 13px; color: #fff; border: 2px solid var(--gold); }
@@ -202,6 +201,14 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10
 footer > div { display: flex; flex-wrap: wrap; gap: 16px; }
 footer a, footer a:visited { color: var(--gold); }
 footer a:hover { color: var(--red); }
+
+/* Fixed "now playing" widget for the background tune */
+.midi { position: fixed; left: 12px; bottom: 12px; z-index: 45; display: flex; align-items: center; gap: 8px; padding: 6px 8px; font: bold 12px/1 var(--mono); color: #0f0; background: #000; border: 3px outset #c0c0c0; box-shadow: 4px 4px 0 #0008; }
+.midi-note { font-size: 18px; color: var(--gold); }
+.midi.is-playing .midi-note { animation: bob .4s infinite alternate; }
+.midi button { min-height: 32px; padding: 4px 10px; font: bold 12px/1 var(--mono); color: #000; background: linear-gradient(#f3f3f3, #c8c8c8); border: 2px outset #e0e0e0; cursor: pointer; }
+.midi button:active { border-style: inset; }
+.midi button:hover { background: var(--gold); }
 
 .skip { position: fixed; top: -100px; left: 20px; z-index: 60; padding: 10px; color: #fff; background: var(--green); }
 .skip:focus { top: 8px; }
@@ -228,6 +235,7 @@ footer a:hover { color: var(--red); }
   .construction { font-size: 14px; letter-spacing: 1px; }
 }
 @media (max-width: 440px) {
+  .midi-file { display: none; }
   .lights li:nth-child(n+17) { display: none; }
   nav a { padding: 4px 8px; font-size: 13px; }
   h2 { font-size: 30px; }
